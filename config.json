@@ -1,0 +1,5 @@
+{
+  "img_size": 224,
+  "sequence_length": 20,
+  "feature_dim": 1280
+}
