@@ -31,7 +31,7 @@ def load_feature_extractor():
 
 @st.cache_resource(show_spinner="Loading trained LSTM classifier...")
 def load_classifier():
-    return tf.keras.models.load_model(MODEL_PATH)
+    return tf.keras.models.load_model(MODEL_PATH,compile=False)
 
 
 def sample_frame_indices(total_frames, n_samples):
